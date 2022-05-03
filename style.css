@@ -1,0 +1,70 @@
+@font-face{
+    font-family:'Passion';
+    src:url('fontes/Passion_One/PassionOne-Bold.ttf');
+}
+
+@font-face {
+    font-family:'Sriracha';
+    src: url('fontes/Sriracha/Sriracha-Regular.ttf');
+    }
+*{
+    margin: 0px;
+    padding:0px;
+    border:0px; 
+}
+header{
+    background-color:black;
+    color: white;
+    margin: auto;
+    text-align:center;
+    padding: 50px;
+    font-family: 'Passion';   
+}
+h1{
+  
+    /* 100 vh seria a tela td (de acordo com tamanho da tela) */ 
+    font-size: 10vw;
+
+}
+body{
+    background-color: rgb(255, 255, 255);  
+}
+section p{
+    max-width: 40vw;
+    font-family:'Sriracha';
+    font-size:3vw;
+    padding:30px;             
+}
+.p1 , .p2{
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:rgba(0, 0, 0, 0.372);
+}
+.p1{
+    background-image: url('pacote/imagens/background001.jpg');
+    background-position: right center;
+            
+}
+.p2{
+    background-image: url('pacote/imagens/background002.jpg');
+    background-position: left center;
+}
+.txt{
+    background-color:rgba(0, 0, 0, 0.372); 
+    padding:30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration:underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding:10px;
+    font-size: 18px;
+    text-align:center;
+}
